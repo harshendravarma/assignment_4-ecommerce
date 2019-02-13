@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <header><!--header starts here-->
+            <nav id="topnagivator"><!--top navigator starts here-->
+                <a href="#">HOME</a>
+                <a href="#">WOMEN</a>
+                <a href="#">MEN</a>
+                <a href="#">NEW</a>
+                <a href="#">TRAVEL</a>
+                <a href="#">THE GIFT SHOP</a>
+                <a href="#">STORES</a>
+            </nav><!--top navigator ends here-->
+            <input  id="logo" type="image" src="logo.png" height="100px" width="200">
+
+        </header><!--header ends here-->
+        
+        <div class="middle_body"><!--hero image starts here-->
+                <img class="image_div" src="shopping_image3.png">            
+        </div><!--hero image ends here-->
+        <div class="sidenavigator"><!--side navigator starts here-->
+                <ul>
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">WOMEN</a></li>
+                        <li><a href="#">MEN</a></li>
+                        <li><a href="#">NEW</a></li>
+                        <li><a href="#">TRAVEL</a></li>
+                        <li><a href="#">THE GIFTSHOP</a></li>
+                        <li><a href="#">STORES</a></li>
+                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#">CHILDREN</a></li>
+                      </ul>
+        </div><!--side navigator-->
+        <div class='page-wrapper'><!--flex div starts here-->
+                <div class='row'><!--flex rows starts here-->
+                  <div class='column'>
+                    <div class='item-column'>
+                      <img src="shirtimage_1.jpg" width="500px" height="600px" >
+                    </div>
+                  </div>
+                  <div class='column'>
+                    <div class='item-column'>
+                            <img src="shirtimage_2.jpg" width="500px" height="600px" >
+                    </div>
+                  </div>
+                  <div class='column'>
+                    <div class='item-column'>
+                            <img src="shirtimage_3.jpg" width="500px" height="600px" >
+                    </div>
+                  </div>
+                  <div class='column'>
+                        <div class='item-column'>
+                                <img src="shirtimage_4.jpg" width="500px" height="600px" >
+                        </div>
+                      </div>
+                      <div class='column'>
+                            <div class='item-column'>
+                              <img src="shirtimage_1.jpg" width="500px" height="600px" >
+                            </div>
+                          </div>
+                          <div class='column'>
+                            <div class='item-column'>
+                                    <img src="shirtimage_2.jpg" width="500px" height="600px" >
+                                   
+                            </div>
+                          </div>
+                          <div class='column'>
+                            <div class='item-column'>
+                                    <img src="shirtimage_3.jpg" width="500px" height="600px" >
+                                  
+                            </div>
+                          </div>
+                          <div class='column'>
+                                <div class='item-column'>
+                                        <img src="shirtimage_4.jpg" width="500px" height="600px" >
+                                        
+                                </div>
+                              </div>
+                              <div class='column'>
+                                    <div class='item-column'>
+                                            <img src="shirtimage_4.jpg" width="500px" height="600px" >
+                                            
+                                    </div>
+                                  </div>
+                                  <div class='column'>
+                                        <div class='item-column'>
+                                                <img src="shirtimage_2.jpg" width="500px" height="600px" >
+                                               
+                                        </div>
+                                      </div>    
+                </div><!--flex rows ends here-->
+              </div><!--flex div ends here-->
+              
+        
+        
+        <footer><!--footer starts here-->
+            <a href="#">ContactUs</a>
+        </footer><!--footer ends here-->
+    </body>
+</html>
+<!--css styling starts here-->
+<style>
+    /*header css code*/
+    header{
+        position:fixed;
+        top:5px;
+        height:100px;
+        width: 100%;
+        background-color: brown; 
+    }
+    /*hero image css code*/
+    .middle_body{
+        width:100%;
+        background-color:white;
+        height:auto;
+        margin-top: 100px;
+    }
+    /*footer css code*/
+    footer{
+        width:100%;
+        background-color: brown;
+        bottom: 0;
+        text-align: center;
+        
+        height:70px;
+    }
+    /*hero image div css code*/
+    .image_div{
+        display: block;
+        width:100%;
+        height: 700px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    /*top navigator css code*/
+    #topnagivator a{
+        color: white;
+        display: inline-block;
+        padding: 40px 30px 25px;
+        text-decoration: none;
+    }
+    /*company logo css code*/
+    #logo{
+        float: right;
+        position: fixed;
+        top:5px;
+        right:0;
+    }
+    /*flex div css code*/
+    page-wrapper {
+  margin: 15px;
+  background-color: red;
+  width:80%; 
+  float: left;
+}
+/*flex row css code*/
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+}
+/*flex colomn css code*/
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+}
+/*flex items css code*/
+.item-column {
+  background-color: whitesmoke;
+  height: auto;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+/*side navigator css code*/
+.sidenavigator{
+    width:20%;
+    height: 600px;
+    float: right;
+    background-color: brown;
+    /*position: sticky;*/
+    top:800px;
+    right:0;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    padding: 5px;
+    margin:30px
+}
+</style><!--css styling ends here-->
